@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fraunces-v32-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2eae2;
+}
+
+.wrapper {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.innerDiv {
+  padding: 32px;
+}
+.caption {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  color: #6c7289;
+}
+.heading {
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #1c232b;
+  font-family: "Fraunces";
+  line-height: 32px;
+}
+.p {
+  color: #6c7289;
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 23px;
+}
+.btn {
+  margin-top: 30px;
+  padding: 15px 62px;
+  background-color: #3d8168;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(102%);
+  }
+}
+
+.secondDiv {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.h4 {
+  color: #3d8168;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Fraunces";
+}
+.small {
+  color: #6c7289;
+}
