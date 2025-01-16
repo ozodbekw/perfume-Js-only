@@ -11,7 +11,7 @@ const h4 = document.createElement("h4");
 const small = document.createElement("del");
 const button = document.createElement("button");
 
-img.src = "./assets/bitmap.png";
+img.src = "./assets/Bitmap.png";
 
 wrapper.classList.add("wrapper");
 innerdiv.classList.add("innerDiv");
